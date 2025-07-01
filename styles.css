@@ -1,10 +1,17 @@
 html{font-size: 16px;}
+.logo{display: inline-block;
+text-align: center;
+max-width: 70%;
+background-color: #E6E6FA;
+border: 10px solid #B0E0E6;
+border-radius: 10px;
+margin-bottom: 20px;}
 header{background-color: #88a8c0;
 padding-top: 20px;
 text-align: center;
 color: #333;
 max-width: 85%;
-margin: 30px auto;
+margin: 10px auto;
 border-radius: 10px;
 }
 body{font-family: comic sans ms, sans-serif;
@@ -32,9 +39,10 @@ max-width: 80%;
 margin: auto;}
 hr.divider.large.top{border: 5px solid #0e0e0e;
     border-radius: 0% 0% 10px 10px;
-;
-max-width:90%;
-margin: 20px auto;
+margin-top: 20px;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
 }
 hr.divider.medium{border: 2px solid #0e0e0e;
 max-width: 87%;
@@ -42,8 +50,14 @@ border-radius: 10px;
 }
 hr.divider.large.bottom{border: 5px solid #0e0e0e;
     border-radius: 10px 10px 0% 0%;
-    margin: 20px auto;}
+    margin-top: 0;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
 hr.divider.small{border: 1px solid #0e0e0e;
 max-width: 85%;
 border-radius: 10px;
 margin: 10px auto;}
+.container{background-color: #88a8c0;
+margin: 0 auto;}
